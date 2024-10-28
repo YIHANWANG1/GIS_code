@@ -34,3 +34,4 @@ ggplot(res2) +
   theme_minimal() +
   labs(title = "Map with Inequality Difference")
 
+st_write(res2,'world_inequlityDifference.geojson')
